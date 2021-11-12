@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.contenedor > h1 {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.pokeBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeBox > .img {
+    margin-top: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+.pokeBox > .name {
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.pokeBox > .ab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pokeBox > .ab > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pokeBox > .ab > p::after {
+    font-size: 25px;
+}
+
+.pokeBox > .ab > .vida::after {
+    display: block;
+    content: "Vida";
+
+}
+
+.pokeBox > .ab > .vida::after {
+    display: block;
+    content: "Vida";
+}
+
+.pokeBox > .ab > .ataque::after {
+    display: block;
+    content: "Ataque";
+}
+
+.pokeBox > .ab > .defensa::after {
+    display: block;
+    content: "Defensa";
+}
+
+.pokeBox > .error {
+    background-color: #f8d7da;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 18px;
+    margin-right: 45px;
+}
